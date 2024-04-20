@@ -11,7 +11,7 @@ export default defineConfig({
   external: [
     "react",
     "react-dom",
-    "react-icons",
+    "react-icons/go",
     "tailwindcss",
     "classnames",
     "postcss",
