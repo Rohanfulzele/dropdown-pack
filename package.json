@@ -1,10 +1,10 @@
 {
   "name": "dropdown-pack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "type":"module",
-  "types":"dist/index.d.ts"
+  "types":"dist/index.d.ts",
   "scripts": {
     "build": "npx rollup -c"
   },
