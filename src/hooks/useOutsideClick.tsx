@@ -21,4 +21,4 @@ const useOutsideClick = ({ ref, handler }: OutsideClickHandlerProps) => {
   }, [ref, handler]);
 };
 
-export default useOutsideClick;
+export {useOutsideClick};
