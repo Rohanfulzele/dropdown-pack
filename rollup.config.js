@@ -8,6 +8,6 @@ export default defineConfig({
     format: "es",
     name: "dropdown-pack",
   },
-  external: ["react", "react-dom", "react-icons/go", "classnames"],
+  external: [/node_modules/],
   plugins: [typescript({ tsconfig: "tsconfig.json" })],
 });
