@@ -1,2 +1,2 @@
-export * from "./components/Dropdown";
-export * from "./hooks/useOutsideClick";
+export * from "./components/Dropdown.tsx";
+export * from "./hooks/useOutsideClick.ts";
