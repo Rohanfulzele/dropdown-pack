@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({ variant,rounded, ...props }) => {
     if(variant === 'secondary') return { borderColor: '#6366F1', backgroundColor: '#FAFAFA', color: '#6366F1', ...propStyle };
     if(variant === 'danger') return { borderColor: '#7F1D1D', backgroundColor: '#7F1D1D', color: '#FAFAFA', ...propStyle };
     if(variant === 'outline') return { borderColor: '#FAFAFA', backgroundColor: '#09090b', color: '#FAFAFA', ...propStyle };
-    if(variant === 'link') return {textDecoratineLine:'line',textDecorationThickness:'4px',textDecorationStyle:'solid', borderColor: 'transparent', backgroundColor: 'transparent', color: '#FAFAFA', ...propStyle };
+    if(variant === 'link') return {textDecoration: 'underline black', borderColor: 'transparent', backgroundColor: 'transparent', color: '#FAFAFA', ...propStyle };
     
     if(rounded) return { borderRadius: '100vw', ...propStyle }
 
