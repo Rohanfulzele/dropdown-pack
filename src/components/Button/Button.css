@@ -1,14 +1,22 @@
+:root{
+  --hover-link: 
+}
+*{
+  font-family: 'Inter, system-ui, Avenir, Helvetica, Arial, sans-serif';
+}
+
 button {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    border-radius: 0.75rem;
+    border-radius: 0.35rem;
     border-width: 1px;
-    text-align: center;
+    display: flex;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-duration: 300ms;
+    cursor: pointer;
   }
   
   button:hover {
@@ -22,3 +30,8 @@ button {
     color: #e5e5e5;
     cursor: not-allowed;
   }
+
+  button\:underline:hover {
+    text-decoration-line: underline;
+    text-underline-offset: 4px;
+ }
